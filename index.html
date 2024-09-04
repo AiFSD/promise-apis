@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-primary text-white text-center p-3">
+      <i class="fa-solid fa-arrows-to-circle" style="font-size: 24px"></i>
+      <h1>All-in-One Programming Dashboard</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#" id="home-tab">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="github-tab">GitHub Repositories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="questions-tab"
+            >Programming Questions</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="contests-tab"
+            >Competitive Programming</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div id="home-content" class="container mt-4">
+      <div class="d-flex align-items-start">
+        <img
+          src="https://i.pinimg.com/564x/2e/14/f0/2e14f004782aabf238b73439e1a2e1c8.jpg"
+          alt="Programming Dashboard"
+          class="custom-home-img img-fluid"
+        />
+        <div class="ml-4">
+          <h2>Welcome to the Programming Room</h2>
+          <h5>
+            This dashboard provides real-time data from various
+            programming-related sources:
+          </h5>
+          <p>
+            Did you know? GitHub hosts millions of repositories, fueling global
+            innovation. Stack Overflow’s vast question repository reveals
+            real-time coding dilemmas. Meanwhile, competitive programming
+            contests challenge the best minds, fostering groundbreaking
+            algorithms. Together, these platforms shape the tech world, driving
+            progress and problem-solving in unexpected ways.
+          </p>
+          <h4>Go through the overview and start exploring the contents</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4" id="content"></div>
+
+    <div id="questions-content" class="d-none">
+      <h2>Programming Questions</h2>
+    </div>
+
+    <div id="contests-content" class="d-none">
+      <h2>Competitive Programming</h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

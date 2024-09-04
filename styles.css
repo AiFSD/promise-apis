@@ -1,0 +1,116 @@
+header {
+  background-image: linear-gradient(to bottom, #007bff, #0069d9);
+  padding-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+nav {
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #337ab7;
+}
+
+nav a:hover {
+  color: #23527c;
+}
+
+#content {
+  padding-top: 20px;
+}
+
+#github-content,
+#questions-content,
+#contests-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#github-content h2,
+#questions-content h2,
+#contests-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#questions-tab.clicked ~ #questions-content,
+#contests-tab.clicked ~ #contests-content {
+  display: block;
+}
+
+.custom-home-img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.ml-4 {
+  margin-left: 1.5rem;
+}
+
+#home-content h2 {
+  margin-top: 30px;
+}
+
+#home-content h5 {
+  margin-top: 70px;
+}
+#home-content h4 {
+  background-color: skyblue;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 4px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+#home-content p {
+  margin-top: 30px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.d-none {
+  display: none;
+}
